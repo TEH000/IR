@@ -93,7 +93,11 @@ class ArticleSpide(Spider):
         item['game_name'] = response.meta['game_name']
         title = ''
         item['article_title'] = title.join(selector.xpath('/html/body/section[2]/section/article/h1//text()').extract())
-        item['article_date'] = selector.xpath('/html/body/section[2]/section/article/div[1]/span/meta/@content').extract_first()
+        date = selector.xpath('/html/body/section[2]/section/article/div[1]/span/text()').extract()[1].strip()
+        if date:
+            date = date.split(' ')
+            date = str(date[1]) + ' ' + str(date[0]) + ', ' + str(date[2])
+            item['article_date'] = date
         item['subtitle'] = selector.xpath('//*[@id="article-content"]/div[1]/text()').extract()[1].strip()
 
         paragraph = selector.xpath('//*[@id="article-content"]/p//text()').extract()
