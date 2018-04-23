@@ -2,12 +2,12 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="D:/Study/IR/project/FinalProject/lucene-6.6.3/analysis/common/lucene-analyzers-common-6.6.3.jar"/>
-	<classpathentry kind="lib" path="D:/Study/IR/project/FinalProject/lucene-6.6.3/backward-codecs/lucene-backward-codecs-6.6.3.jar"/>
-	<classpathentry kind="lib" path="D:/Study/IR/project/FinalProject/lucene-6.6.3/highlighter/lucene-highlighter-6.6.3.jar"/>
-	<classpathentry kind="lib" path="D:/Study/IR/project/FinalProject/lucene-6.6.3/core/lucene-core-6.6.3.jar"/>
-	<classpathentry kind="lib" path="D:/Study/IR/project/FinalProject/lucene-6.6.3/queryparser/lucene-queryparser-6.6.3.jar"/>
-	<classpathentry kind="lib" path="D:/Study/IR/project/FinalProject/lucene-6.6.3/queries/lucene-queries-6.6.3.jar"/>
-	<classpathentry kind="lib" path="D:/Study/IR/project/FinalProject/lucene-6.6.3/memory/lucene-memory-6.6.3.jar"/>
+	<classpathentry kind="lib" path="/Users/dongguo/Documents/GitHub/IR/jar/lucene-analyzers-common-6.6.3.jar"/>
+	<classpathentry kind="lib" path="/Users/dongguo/Documents/GitHub/IR/jar/lucene-backward-codecs-6.6.3.jar"/>
+	<classpathentry kind="lib" path="/Users/dongguo/Documents/GitHub/IR/jar/lucene-core-6.6.3.jar"/>
+	<classpathentry kind="lib" path="/Users/dongguo/Documents/GitHub/IR/jar/lucene-highlighter-6.6.3.jar"/>
+	<classpathentry kind="lib" path="/Users/dongguo/Documents/GitHub/IR/jar/lucene-memory-6.6.3.jar"/>
+	<classpathentry kind="lib" path="/Users/dongguo/Documents/GitHub/IR/jar/lucene-queries-6.6.3.jar"/>
+	<classpathentry kind="lib" path="/Users/dongguo/Documents/GitHub/IR/jar/lucene-queryparser-6.6.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
